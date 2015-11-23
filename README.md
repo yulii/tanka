@@ -14,15 +14,54 @@ gem 'tanka'
 
 And then execute:
 
-    $ bundle
+```
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install tanka
+```
+$ gem install tanka
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+irb> Tanka.build(:user)
+=> #<User:0x007f88914e5450 @state="active">
+irb> Tanka.build(:user)
+=> #<User:0x007f88914d49e8 @state="deleted">
+irb> Tanka.build(:user)
+=> #<User:0x007f88914f49f0 @state="suspend">
+```
+
+load class from
+
+```ruby
+# define your model (ex. ActiveRecord)
+class User
+  attr_reader :state
+
+  def initialize(attributes = {})
+    @state = attributes[:state]
+  end
+end
+```
+
+load date from
+
+```
+en:
+  tanka:
+    user:
+      state: [active, suspend, deleted]
+```
+
+## TODO
+
+- support
+    - Struct class
+    - Excel data as a dictionary
 
 ## Development
 

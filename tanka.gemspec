@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['yone.info@gmail.com']
 
   spec.summary       = 'Generate structured object at random.'
-  spec.description   = 'TODO: Write a longer description or delete this line.'
+  spec.description   = 'Quick setup Ruby objects as random test data.'
   spec.homepage      = 'https://github.com/yulii/tanka'
   spec.license       = 'MIT'
 
