@@ -1,7 +1,6 @@
 module Tanka
   class Factory
     class Base
-
       def build
         return nil if (1.0 - @null) < rand(0..1.0)
         @object

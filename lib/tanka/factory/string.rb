@@ -1,7 +1,6 @@
 module Tanka
   class Factory
     class String < Base
-
       def self.generate(size, options = {})
         new(rand(size), options).build
       end
