@@ -1,5 +1,8 @@
 require 'tanka/version'
+require 'tanka/factory'
 
 module Tanka
-  # Your code goes here...
+  def self.build(name)
+    Factory.new(name).build
+  end
 end

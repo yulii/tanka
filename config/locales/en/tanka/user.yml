@@ -1,0 +1,5 @@
+en:
+  tanka:
+    user:
+      name:  yulii
+      state: [active, suspend, deleted]
