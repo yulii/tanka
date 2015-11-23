@@ -1,3 +1,5 @@
+require 'tanka/factory/base'
+require 'tanka/factory/numeric'
 require 'i18n'
 
 root = File.expand_path('../../../', __FILE__)
