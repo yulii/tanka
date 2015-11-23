@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Generate structured object at random.'
   spec.description   = 'TODO: Write a longer description or delete this line.'
-  spec.homepage      = "https://github.com/yulii/tanka"
+  spec.homepage      = 'https://github.com/yulii/tanka'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

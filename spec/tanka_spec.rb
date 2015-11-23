@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 describe Tanka do
-
   class User
     attr_reader :name, :state
 
