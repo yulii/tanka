@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 describe Tanka::Factory::Base do
-
   describe '#build' do
     subject { factory.build }
 

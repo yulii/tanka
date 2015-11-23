@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 describe Tanka::Factory::Numeric do
-
   describe '.generate' do
     subject { Tanka::Factory::Numeric.generate(range) }
 
