@@ -1,5 +1,7 @@
 # Tanka
 
+[![Build Status](https://travis-ci.org/yulii/tanka.svg?branch=master)](https://travis-ci.org/yulii/tanka)
+
 Generate structured object at random.
 
 ## Installation
